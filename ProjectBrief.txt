@@ -1,8 +1,8 @@
-This project is managed purely from Jira,
-https://probax.atlassian.net/browse/AD-49
+This project is managed purely from my personal Jira,
+id="AD-49"
 
-part 1. using perl, build an executable that can be copied to any machine (ie. without perl installed) that collects the CPU and memory usage, and outputs it to the screen every second - console 
+Part 1. Using perl, build an executable that can be copied to any machine (ie. without perl installed) that collects the CPU and memory usage of the device, and outputs it to the console every second.
 
-part 2. send this data to an apache web server over the internet, and store the values in a MySQL database
-SERVER-SIDE script: Using ServerSide2vars.pl hosted in /var/www/html
+Part 2. Send this data to an apache web server over the internet, and store the values in a MySQL database
+SERVER-SIDE script: Using ServerSideCapture.pl hosted in /var/www/html
 CLIENT-SIDE script: Using CpuRamMonitor.pl/exe
